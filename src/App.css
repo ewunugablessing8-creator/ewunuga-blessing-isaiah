@@ -1,0 +1,250 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height:190vh;
+  width: 100%;
+  margin-top: 10px;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  height: 70vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  padding: 40px;
+
+}
+.home-content h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 20px;
+}
+.home-description {
+  font-size: 18px;
+  color: gray;
+  line-height: 1.5;
+}
+.home-intro{
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 20px;
+}
+.home-side{
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  width: 100%;
+}
+.home-side h2{
+  font-size: 24px;
+  color: white;
+  margin-left: 10px;
+}
+.home-middle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+
+}
+.home-middle .home-description{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin:0 5px;
+  line-height: 1.5;
+  color: gray;
+}
+.home-middle .home-description h4{
+  font-size: 20px;
+  color: white;
+}
+.home-end{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+ 
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 190vh;
+  width: 100%;
+  margin-top: 10px;
+}
+.portfolio-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+  width: 100%;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+
+}
+.portfolio-up{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: gray;
+}
+.portfolio-up h1{
+  font-size: 48px;
+  color: white;
+}
+.portfolio-image {
+  flex: 0 1 400px;
+}
+
+.portfolio-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 20px;
+}
+.portfolio-skills1 {
+  padding: 32px;
+  color: black;
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+.portfolio-skills {
+  width: 100%;
+  height: 250px;
+  border-radius: 20px;
+  border: 3px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+.portfolio-skills li {
+  padding: 10px 16px;
+  border: 1px solid white;
+  border-radius: 24px;
+  background: gray;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+.portfolio-works{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height:300px;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio-works h2{
+  font-size: 28px;
+  color: black;
+}
+.portfolio-work1{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height:250px;
+  width:45%;
+  border-radius: 20px;
+  background-color: rgb(236, 227, 227);
+  align-items: center;
+}
+.portfolio-work-image{
+   background-image: url('background7.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+}
+.portfolio-work-image1{
+   background-image: url('background8.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+}
+.portfolio-work1 button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.portfolio-work1 button a{
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 80vh;
+  width: 70%;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+ 
+}
+.contact-links{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 80%;
+ 
+}
+.contact-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 24px;
+  padding: 10px 20px;
+  color: black;
+}
